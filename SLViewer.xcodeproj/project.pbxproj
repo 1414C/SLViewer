@@ -37,7 +37,7 @@
 		B221B3F01AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = B221B3EE1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.m */; };
 		B221B3F11AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = B221B3EF1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.xib */; };
 		B221B4621D39801300D3BA10 /* WC_ABAPEvent_Modal.xib in Resources */ = {isa = PBXBuildFile; fileRef = B221B4611D39801300D3BA10 /* WC_ABAPEvent_Modal.xib */; };
-		B221B4651D3989F300D3BA10 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = B221B4641D3989F300D3BA10 /* LICENSE.md */; };
+		B221B4671D398F8400D3BA10 /* CLAS_ZCL_TEXT_EXPORT5.slnk in Resources */ = {isa = PBXBuildFile; fileRef = B221B4661D398F8400D3BA10 /* CLAS_ZCL_TEXT_EXPORT5.slnk */; };
 		B2279D6B1ACC514B00ACEF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6A1ACC514B00ACEF48 /* main.m */; };
 		B2279D6E1ACC514B00ACEF48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6D1ACC514B00ACEF48 /* ViewController.m */; };
 		B2279D711ACC514B00ACEF48 /* SLViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6F1ACC514B00ACEF48 /* SLViewer.xcdatamodeld */; };
@@ -149,6 +149,7 @@
 		B221B3EF1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_ABAPFugrInclude_InPlaceDisplay.xib; sourceTree = "<group>"; };
 		B221B4611D39801300D3BA10 /* WC_ABAPEvent_Modal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC_ABAPEvent_Modal.xib; sourceTree = "<group>"; };
 		B221B4641D3989F300D3BA10 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		B221B4661D398F8400D3BA10 /* CLAS_ZCL_TEXT_EXPORT5.slnk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CLAS_ZCL_TEXT_EXPORT5.slnk; sourceTree = "<group>"; };
 		B2279D621ACC514B00ACEF48 /* SLViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2279D661ACC514B00ACEF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2279D671ACC514B00ACEF48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -447,6 +448,7 @@
 		B2279D7E1ACC514B00ACEF48 /* SLViewerTests */ = {
 			isa = PBXGroup;
 			children = (
+				B221B4661D398F8400D3BA10 /* CLAS_ZCL_TEXT_EXPORT5.slnk */,
 				B2279D811ACC514B00ACEF48 /* SLViewerTests.m */,
 				B2279D7F1ACC514B00ACEF48 /* Supporting Files */,
 			);
@@ -629,6 +631,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B221B4671D398F8400D3BA10 /* CLAS_ZCL_TEXT_EXPORT5.slnk in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +652,6 @@
 				B2279D6E1ACC514B00ACEF48 /* ViewController.m in Sources */,
 				B2CB47C81ADF265A00C77A84 /* M_ABAPClassEvent.m in Sources */,
 				B248EF9F1AF2AFE200229A36 /* M_ABAPClass.m in Sources */,
-				B221B4651D3989F300D3BA10 /* LICENSE.md in Sources */,
 				B248EFA21AF2E10300229A36 /* M_ABAPClassMethod.m in Sources */,
 				B21978811AD4872F00A8542F /* ABAPEventCategoryTransformer.m in Sources */,
 				B2CB47CE1ADF265A00C77A84 /* M_ABAPClassMethodParameter.m in Sources */,
