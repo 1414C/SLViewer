@@ -18,6 +18,10 @@ support for others, however most meaningful aspects of ABAP-stack development ca
 A notable exclusion is ABAP Repostitory content (DDIC).  It would be possible to add support for customer DDIC elements, domains, strucures
 and tables.
 
+# Testing
+A sample Slinkee file has been included in the SLViewer/SLViewerTests folder.  It contains a single ABAP Class of reasonable completeness.
+
+#TODO:
 Logical next-steps would be: 
 * add class-type leaf in the class object list 
 * add support for custom DDIC objects (tables, structures, data-elements, domains)
