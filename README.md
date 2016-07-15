@@ -1,6 +1,8 @@
 # SLViewer
 SAPLink Archive Viewer for OS X
 
+I wrote this for myself in some spare time I had last year.  We reduce our lab systems to rubble from time-to-time, and dealing with the reapplication of transports just for the sake of examining sample source code gets tedious.  I also didn't want to reapply SAPLink archives just to look at one or two ABAP classes.  The result is this program.
+
 The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode 7.0 with a target OS X release of 10.11.  When I update to XCode 8.x I will create a fork and make the required changes there for 10.11 and 10.12.
 
 This program will read SAPLink archives and create a SQLite DB containing the unarchived objects in human-readable format.  
