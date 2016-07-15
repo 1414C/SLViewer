@@ -5,21 +5,19 @@ I wrote this for myself in some spare time I had last year.  We reduce our lab s
 
 The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode 7.0 with a target OS X release of 10.11.  When I update to XCode 8.x I will create a fork and make the required changes there for 10.11 and 10.12.
 
-This program will read SAPLink archives and create a SQLite DB containing the unarchived objects in human-readable format.  
+* This program will read SAPLink archives in either Slinkee or Nugget format and create a SQLite DB containing the unarchived objects in human-readable format.  
+* You may import multiple SAPLink files.
+* Duplicate objects will be overwritten without warning.
+* The imported objects are contained in one 'codebase' - see the overwrite warning.
 
-You may import multiple SAPLink files in either Slinkee or Nugget format.
+The only objects supported are ABAP Classes, ABAP Function Groups and ABAP SE38-type programs.  If the source file contains other
+object-types, the unsupported objects will be skipped over.  It would be relatively simple to add support for additional object-types,
+however most meaningful aspects of ABAP-stack development can be captured with those presently supported.
 
-Duplicate objects will be overwritten without warning.
-
-The imported objects are contained in one 'codebase' - see the overwrite warning.
-
-The only objects supported are ABAP Classes, ABAP Function Groups and ABAP SE38-type programs.  It would be relatively simple to add 
-support for others, however most meaningful aspects of ABAP-stack development can be captured with the presently supported objects.
-A notable exclusion is ABAP Repostitory content (DDIC).  It would be possible to add support for customer DDIC elements, domains, strucures
-and tables.
+A notable exclusion is ABAP Repostitory content (DDIC).  
 
 # Testing
-A sample Slinkee file has been included in the SLViewer/SLViewerTests folder.  It contains a single ABAP Class of reasonable completeness.
+A sample Slinkee file is located at ./SLViewer/SLViewerTests/CLAS_ZCL_TEXT_EXPORT5.slnk.  It contains a single ABAP Class of reasonable completeness.
 
 #TODO:
 Logical next-steps would be: 
