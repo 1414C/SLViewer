@@ -1,6 +1,8 @@
 # SLViewer
 SAPLink Archive Viewer for OS X
 
+The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode 7.0 with a target OS X release of 10.11.  When I update to XCode 8.x I will create a fork and make the required changes there for 10.11 and 10.12.
+
 This program will read SAPLink archives and create a SQLite DB containing the unarchived objects in human-readable format.  
 
 You may import multiple SAPLink files in either Slinkee or Nugget format.
