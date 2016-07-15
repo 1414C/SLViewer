@@ -360,9 +360,12 @@
             // throw an error resulting in an alert.  this is confusing as the file actually continues to
             // import.  For now use the raw url and accept the linter warning....
 #pragma mark - 10.11 upate end
-            fileData = [NSData dataWithContentsOfFile:url         //[url absoluteString]
-                                              options:NSDataReadingUncached
-                                                error:&error];
+                fileData = [NSData dataWithContentsOfFile: url                       // [url absoluteString]
+                                                  options:NSDataReadingUncached
+                                                    error:&error];
+          
+            
+            
             if(error)
             {
                 // cleanup and popup

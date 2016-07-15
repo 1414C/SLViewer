@@ -17,6 +17,7 @@ A notable exclusion is ABAP Repostitory content (DDIC).  It would be possible to
 and tables.
 
 Logical next-steps would be: 
+* add class-type leaf in the class object list 
 * add support for custom DDIC objects (tables, structures, data-elements, domains)
 * create a parser/lexer to permit indexing of the known objects
 * use the parser/lexer to color-code the source code

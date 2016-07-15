@@ -36,6 +36,7 @@
 		B221B3EC1AF8081A00C90766 /* VC_ABAPFugrFM_InPlaceDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = B221B3EA1AF8081A00C90766 /* VC_ABAPFugrFM_InPlaceDisplay.xib */; };
 		B221B3F01AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = B221B3EE1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.m */; };
 		B221B3F11AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = B221B3EF1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.xib */; };
+		B221B4621D39801300D3BA10 /* WC_ABAPEvent_Modal.xib in Resources */ = {isa = PBXBuildFile; fileRef = B221B4611D39801300D3BA10 /* WC_ABAPEvent_Modal.xib */; };
 		B2279D6B1ACC514B00ACEF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6A1ACC514B00ACEF48 /* main.m */; };
 		B2279D6E1ACC514B00ACEF48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6D1ACC514B00ACEF48 /* ViewController.m */; };
 		B2279D711ACC514B00ACEF48 /* SLViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6F1ACC514B00ACEF48 /* SLViewer.xcdatamodeld */; };
@@ -51,7 +52,6 @@
 		B248EF9F1AF2AFE200229A36 /* M_ABAPClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B248EF9E1AF2AFE200229A36 /* M_ABAPClass.m */; };
 		B248EFA21AF2E10300229A36 /* M_ABAPClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B248EFA11AF2E10300229A36 /* M_ABAPClassMethod.m */; };
 		B248EFD41AF31B6800229A36 /* ABAPCodeFormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B248EFD31AF31B6800229A36 /* ABAPCodeFormatUtil.m */; };
-		B269CD211D396E59008F9FC1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B269CD201D396E59008F9FC1 /* README.md */; };
 		B2CB47011ADC307900C77A84 /* WC_ABAPMethod_Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CB46FF1ADC307900C77A84 /* WC_ABAPMethod_Modal.m */; };
 		B2CB47021ADC307900C77A84 /* WC_ABAPMethod_Modal.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CB47001ADC307900C77A84 /* WC_ABAPMethod_Modal.xib */; };
 		B2CB476E1ADEE99C00C77A84 /* WC_ABAPEvent_Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CB476D1ADEE99C00C77A84 /* WC_ABAPEvent_Modal.m */; };
@@ -146,6 +146,7 @@
 		B221B3ED1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_ABAPFugrInclude_InPlaceDisplay.h; sourceTree = "<group>"; };
 		B221B3EE1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_ABAPFugrInclude_InPlaceDisplay.m; sourceTree = "<group>"; };
 		B221B3EF1AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VC_ABAPFugrInclude_InPlaceDisplay.xib; sourceTree = "<group>"; };
+		B221B4611D39801300D3BA10 /* WC_ABAPEvent_Modal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC_ABAPEvent_Modal.xib; sourceTree = "<group>"; };
 		B2279D621ACC514B00ACEF48 /* SLViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2279D661ACC514B00ACEF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2279D671ACC514B00ACEF48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -181,7 +182,7 @@
 		B2CB47001ADC307900C77A84 /* WC_ABAPMethod_Modal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC_ABAPMethod_Modal.xib; sourceTree = "<group>"; };
 		B2CB476C1ADEE94400C77A84 /* WC_ABAPEvent_Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC_ABAPEvent_Modal.h; sourceTree = "<group>"; };
 		B2CB476D1ADEE99C00C77A84 /* WC_ABAPEvent_Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC_ABAPEvent_Modal.m; sourceTree = "<group>"; };
-		B2CB476F1ADEEACE00C77A84 /* WC_ABAPEvent_Modal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WC_ABAPEvent_Modal.xib; path = ../WC_ABAPEvent_Modal.xib; sourceTree = "<group>"; };
+		B2CB476F1ADEEACE00C77A84 /* WC_ABAPEvent_Modal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC_ABAPEvent_Modal.xib; sourceTree = "<group>"; };
 		B2CB47711ADF22B800C77A84 /* SLViewer 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SLViewer 2.xcdatamodel"; sourceTree = "<group>"; };
 		B2CB47C01ADF265900C77A84 /* M_ABAPClassMethodException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_ABAPClassMethodException.h; sourceTree = "<group>"; };
 		B2CB47C11ADF265900C77A84 /* M_ABAPClassMethodException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_ABAPClassMethodException.m; sourceTree = "<group>"; };
@@ -306,6 +307,7 @@
 				B2CB476C1ADEE94400C77A84 /* WC_ABAPEvent_Modal.h */,
 				B2CB476D1ADEE99C00C77A84 /* WC_ABAPEvent_Modal.m */,
 				B2CB476F1ADEEACE00C77A84 /* WC_ABAPEvent_Modal.xib */,
+				B221B4611D39801300D3BA10 /* WC_ABAPEvent_Modal.xib */,
 				B221B3E31AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.h */,
 				B221B3E41AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.m */,
 				B221B3E51AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.xib */,
@@ -599,6 +601,7 @@
 			files = (
 				B2CB47021ADC307900C77A84 /* WC_ABAPMethod_Modal.xib in Resources */,
 				B248EF931AF157CB00229A36 /* VC_ABAPProgram_Tab.xib in Resources */,
+				B221B4621D39801300D3BA10 /* WC_ABAPEvent_Modal.xib in Resources */,
 				B2CB47EE1AE053E800C77A84 /* VC_ABAPFugr_Tab.xib in Resources */,
 				B21653911AD73A01008FC848 /* VC_ABAPClassAttributes_Tab.xib in Resources */,
 				B2CB48251AE4A96A00C77A84 /* VC_ABAPFugrTOPINCL_Tab.xib in Resources */,
@@ -675,7 +678,6 @@
 				B2CB482E1AE5B88D00C77A84 /* WC_ABAPFugrIncludes_Modal.m in Sources */,
 				B21653841AD7272B008FC848 /* VC_ABAPClassEvent_Tab.m in Sources */,
 				B2279D8D1ACC51EB00ACEF48 /* ABAPClassXMLParser.m in Sources */,
-				B269CD211D396E59008F9FC1 /* README.md in Sources */,
 				B2CB47D41ADF265B00C77A84 /* M_ABAPClassAttribute.m in Sources */,
 				B2CB48291AE5AE5E00C77A84 /* VC_ABAPFugr_Includes.m in Sources */,
 				B2CB47E01ADF268700C77A84 /* M_ABAPFugrIncl.m in Sources */,

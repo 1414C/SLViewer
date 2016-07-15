@@ -134,6 +134,7 @@
             
         case C_SAPOOEventLeaf:
             {
+                [self removeAllTabViewItems];
                 ABAPTreeNode *parentNode = (ABAPTreeNode*)[tn parentNode];
                 M_ABAPClass *abapClass = [parentNode moEntity];
                 [self showABAPClass:abapClass withActiveTabIdentifier:kClassEventsTab];
@@ -150,6 +151,7 @@
             
         case C_SAPOOAttributeLeaf:
             {
+                [self removeAllTabViewItems];
                 ABAPTreeNode *parentNode = (ABAPTreeNode*)[tn parentNode];
                 M_ABAPClass *abapClass = [parentNode moEntity];
                 [self showABAPClass:abapClass withActiveTabIdentifier:kClassAttributesTab];
@@ -464,7 +466,7 @@
 }
 
 
-
+// maybe cleanup NSTabViewController on the way in....
 -(id)showABAPClass:(M_ABAPClass*)ac withActiveTabIdentifier:(NSString*)tabIdentifier
 {
     [self setTabStyle:NSTabViewControllerTabStyleSegmentedControlOnTop];

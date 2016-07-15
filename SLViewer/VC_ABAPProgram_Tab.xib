@@ -33,9 +33,9 @@
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0PZ-ZN-bj7">
                     <rect key="frame" x="99" y="519" width="96" height="22"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="96" id="FHh-wd-e01"/>
+                        <constraint firstAttribute="width" constant="96" id="alN-wz-yHh"/>
                     </constraints>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="iTy-VN-e9d">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="iTy-VN-e9d">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -50,11 +50,8 @@
                     </textFieldCell>
                 </textField>
                 <datePicker verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MyG-kG-DoA">
-                    <rect key="frame" x="203" y="518" width="93" height="27"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="90" id="f5U-cM-4Qp"/>
-                    </constraints>
-                    <datePickerCell key="cell" borderStyle="bezel" alignment="left" id="oI6-lW-Ce2">
+                    <rect key="frame" x="203" y="518" width="103" height="27"/>
+                    <datePickerCell key="cell" enabled="NO" borderStyle="bezel" alignment="left" id="oI6-lW-Ce2">
                         <font key="font" metaFont="system"/>
                         <calendarDate key="date" timeIntervalSinceReferenceDate="-595929600" calendarFormat="%Y-%m-%d %H:%M:%S %z">
                             <!--1982-02-12 08:00:00 -0800-->
@@ -67,7 +64,7 @@
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dKT-xi-U5f">
                     <rect key="frame" x="99" y="546" width="350" height="22"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="350" id="U9C-GR-aav"/>
+                        <constraint firstAttribute="width" constant="350" id="jfa-sy-Icw"/>
                     </constraints>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="pBE-ni-kHY">
                         <font key="font" metaFont="system"/>
@@ -77,7 +74,7 @@
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Koj-4t-Qu9">
                     <rect key="frame" x="99" y="492" width="96" height="22"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="7SH-o1-1Qf">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="7SH-o1-1Qf">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -92,8 +89,8 @@
                     </textFieldCell>
                 </textField>
                 <datePicker verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="saE-J3-10O">
-                    <rect key="frame" x="203" y="491" width="93" height="27"/>
-                    <datePickerCell key="cell" borderStyle="bezel" alignment="left" id="IWK-8Z-E1q">
+                    <rect key="frame" x="203" y="491" width="103" height="27"/>
+                    <datePickerCell key="cell" enabled="NO" borderStyle="bezel" alignment="left" id="IWK-8Z-E1q">
                         <font key="font" metaFont="system"/>
                         <calendarDate key="date" timeIntervalSinceReferenceDate="-595929600" calendarFormat="%Y-%m-%d %H:%M:%S %z">
                             <!--1982-02-12 08:00:00 -0800-->
@@ -133,30 +130,29 @@
                 </scrollView>
             </subviews>
             <constraints>
-                <constraint firstItem="ef9-PM-cDX" firstAttribute="baseline" secondItem="Koj-4t-Qu9" secondAttribute="baseline" id="74i-R4-csy"/>
-                <constraint firstItem="Htz-eV-iYx" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="22" id="91N-PC-icd"/>
-                <constraint firstItem="pbN-dV-ALR" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="Cua-Pq-gDc"/>
-                <constraint firstItem="5IW-wj-vhY" firstAttribute="baseline" secondItem="0PZ-ZN-bj7" secondAttribute="baseline" id="D5C-uS-ydO"/>
-                <constraint firstItem="Htz-eV-iYx" firstAttribute="leading" secondItem="5IW-wj-vhY" secondAttribute="leading" id="Ean-ud-EX0"/>
-                <constraint firstItem="dKT-xi-U5f" firstAttribute="leading" secondItem="0PZ-ZN-bj7" secondAttribute="leading" id="F9L-aF-jj6"/>
-                <constraint firstItem="Htz-eV-iYx" firstAttribute="baseline" secondItem="dKT-xi-U5f" secondAttribute="baseline" id="FYY-gM-r4s"/>
-                <constraint firstAttribute="trailing" secondItem="pbN-dV-ALR" secondAttribute="trailing" constant="20" symbolic="YES" id="HS0-rB-rC5"/>
-                <constraint firstAttribute="bottom" secondItem="pbN-dV-ALR" secondAttribute="bottom" constant="20" symbolic="YES" id="JQL-Xw-NZU"/>
-                <constraint firstItem="Koj-4t-Qu9" firstAttribute="leading" secondItem="ef9-PM-cDX" secondAttribute="trailing" constant="23" id="QbM-GC-NEo"/>
-                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="top" secondItem="MyG-kG-DoA" secondAttribute="top" id="QeU-TL-oHV"/>
-                <constraint firstItem="pbN-dV-ALR" firstAttribute="top" secondItem="saE-J3-10O" secondAttribute="bottom" constant="15" id="R1A-65-fuo"/>
-                <constraint firstItem="saE-J3-10O" firstAttribute="top" secondItem="MyG-kG-DoA" secondAttribute="bottom" constant="4" id="RYF-GL-Ea6"/>
-                <constraint firstItem="Htz-eV-iYx" firstAttribute="centerX" secondItem="ef9-PM-cDX" secondAttribute="centerX" id="Rp7-k1-2f2"/>
-                <constraint firstItem="dKT-xi-U5f" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="TCJ-Dy-AZp"/>
-                <constraint firstItem="MyG-kG-DoA" firstAttribute="leading" secondItem="0PZ-ZN-bj7" secondAttribute="trailing" constant="8" symbolic="YES" id="Tez-lB-XZE"/>
-                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="leading" secondItem="Koj-4t-Qu9" secondAttribute="leading" id="ZKh-Fu-HXL"/>
-                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="leading" secondItem="5IW-wj-vhY" secondAttribute="trailing" constant="28" id="hhi-1L-QSZ"/>
-                <constraint firstItem="Koj-4t-Qu9" firstAttribute="top" secondItem="saE-J3-10O" secondAttribute="top" id="ihS-5p-fuY"/>
-                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="top" secondItem="dKT-xi-U5f" secondAttribute="bottom" constant="5" id="lac-jU-dTW"/>
-                <constraint firstItem="saE-J3-10O" firstAttribute="leading" secondItem="Koj-4t-Qu9" secondAttribute="trailing" constant="8" symbolic="YES" id="qpk-vO-gpl"/>
-                <constraint firstItem="5IW-wj-vhY" firstAttribute="leading" secondItem="ef9-PM-cDX" secondAttribute="leading" id="tkl-gQ-prB"/>
-                <constraint firstItem="MyG-kG-DoA" firstAttribute="trailing" secondItem="saE-J3-10O" secondAttribute="trailing" id="uUs-dR-HNS"/>
-                <constraint firstItem="MyG-kG-DoA" firstAttribute="leading" secondItem="saE-J3-10O" secondAttribute="leading" id="xlw-Nk-4sd"/>
+                <constraint firstItem="Htz-eV-iYx" firstAttribute="centerX" secondItem="ef9-PM-cDX" secondAttribute="centerX" id="1Ai-uC-Y0b"/>
+                <constraint firstItem="Koj-4t-Qu9" firstAttribute="leading" secondItem="ef9-PM-cDX" secondAttribute="trailing" constant="23" id="4fW-Ue-mkZ"/>
+                <constraint firstItem="dKT-xi-U5f" firstAttribute="leading" secondItem="0PZ-ZN-bj7" secondAttribute="leading" id="8JI-8E-mcG"/>
+                <constraint firstItem="5IW-wj-vhY" firstAttribute="leading" secondItem="ef9-PM-cDX" secondAttribute="leading" id="Eer-hO-Aaf"/>
+                <constraint firstItem="dKT-xi-U5f" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" symbolic="YES" id="G3X-SY-RnA"/>
+                <constraint firstItem="pbN-dV-ALR" firstAttribute="top" secondItem="saE-J3-10O" secondAttribute="bottom" constant="15" id="HPO-xS-xz8"/>
+                <constraint firstItem="Htz-eV-iYx" firstAttribute="baseline" secondItem="dKT-xi-U5f" secondAttribute="baseline" id="IMK-o5-p0G"/>
+                <constraint firstItem="Koj-4t-Qu9" firstAttribute="top" secondItem="saE-J3-10O" secondAttribute="top" id="JqY-gR-3O7"/>
+                <constraint firstItem="Htz-eV-iYx" firstAttribute="leading" secondItem="5IW-wj-vhY" secondAttribute="leading" id="MLS-Ig-nyO"/>
+                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="leading" secondItem="5IW-wj-vhY" secondAttribute="trailing" constant="28" id="QqS-jA-6I4"/>
+                <constraint firstAttribute="bottom" secondItem="pbN-dV-ALR" secondAttribute="bottom" constant="20" symbolic="YES" id="UCE-Ml-hI5"/>
+                <constraint firstAttribute="trailing" secondItem="pbN-dV-ALR" secondAttribute="trailing" constant="20" symbolic="YES" id="Ubg-CN-3FR"/>
+                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="top" secondItem="dKT-xi-U5f" secondAttribute="bottom" constant="5" id="ZbC-eI-0r2"/>
+                <constraint firstItem="pbN-dV-ALR" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" symbolic="YES" id="Zl8-eZ-2II"/>
+                <constraint firstItem="MyG-kG-DoA" firstAttribute="leading" secondItem="saE-J3-10O" secondAttribute="leading" id="brl-UN-N0F"/>
+                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="top" secondItem="MyG-kG-DoA" secondAttribute="top" id="c7y-WV-nTe"/>
+                <constraint firstItem="MyG-kG-DoA" firstAttribute="leading" secondItem="0PZ-ZN-bj7" secondAttribute="trailing" constant="8" symbolic="YES" id="cWD-BO-lSw"/>
+                <constraint firstItem="ef9-PM-cDX" firstAttribute="baseline" secondItem="Koj-4t-Qu9" secondAttribute="baseline" id="gsc-zc-25E"/>
+                <constraint firstItem="Htz-eV-iYx" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="22" id="kMo-n2-DOc"/>
+                <constraint firstItem="saE-J3-10O" firstAttribute="top" secondItem="MyG-kG-DoA" secondAttribute="bottom" constant="4" id="nD6-ek-CWj"/>
+                <constraint firstItem="5IW-wj-vhY" firstAttribute="baseline" secondItem="0PZ-ZN-bj7" secondAttribute="baseline" id="qrR-Xn-dWB"/>
+                <constraint firstItem="0PZ-ZN-bj7" firstAttribute="leading" secondItem="Koj-4t-Qu9" secondAttribute="leading" id="yQU-Ld-lne"/>
+                <constraint firstItem="saE-J3-10O" firstAttribute="leading" secondItem="Koj-4t-Qu9" secondAttribute="trailing" constant="8" symbolic="YES" id="zY7-QT-Fda"/>
             </constraints>
             <point key="canvasLocation" x="764.5" y="434"/>
         </customView>
