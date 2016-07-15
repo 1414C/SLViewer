@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="M_ABAPClass" representedClassName="M_ABAPClass" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedby" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chdanyon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsbccat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsccincl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsfinal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exposure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixpt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="langu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="r3release" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="refclsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="risk_level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strLocalImplementationSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strLocalMacroSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strLocalTypeSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strPrivateSectionSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strProtectedSectionSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strPublicSectionSource" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unicode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cls_clsattr" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPClassAttribute" inverseName="clsattr_cls" inverseEntity="M_ABAPClassAttribute" syncable="YES"/>
+        <relationship name="cls_clsevt" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPClassEvent" inverseName="clsevt_cls" inverseEntity="M_ABAPClassEvent" syncable="YES"/>
+        <relationship name="cls_clsmtd" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPClassMethod" inverseName="clsmtd_cls" inverseEntity="M_ABAPClassMethod" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPClassAttribute" representedClassName="M_ABAPClassAttribute" syncable="YES">
+        <attribute name="attdecltyp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attexpvirt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attrdonly" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attvalue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedby" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cls_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmpname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editorder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exposure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="langu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="r3release" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srccolumn1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srccolumn2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srcrow1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srcrow2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typesrc_leng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clsattr_cls" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPClass" inverseName="cls_clsattr" inverseEntity="M_ABAPClass" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPClassEvent" representedClassName="M_ABAPClassEvent" syncable="YES">
+        <attribute name="bcevtcat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cls_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmpname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editorder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evt_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evtdecltyp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exposure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="langu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="refclsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="refcmpname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clsevt_cls" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPClass" inverseName="cls_clsevt" inverseEntity="M_ABAPClass" syncable="YES"/>
+        <relationship name="clsevt_clsevtparam" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPClassEventParameter" inverseName="clsevtparam_clsevt" inverseEntity="M_ABAPClassEventParameter" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPClassEventParameter" representedClassName="M_ABAPClassEventParameter" syncable="YES">
+        <attribute name="clsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmpname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmptype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dispid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editorder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="evt_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="langu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtdtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paroptionl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parpasstyp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parvalue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sconame" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clsevtparam_clsevt" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPClassEvent" inverseName="clsevt_clsevtparam" inverseEntity="M_ABAPClassEvent" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPClassMethod" representedClassName="M_ABAPClassMethod" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bcmtdcat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bcmtdsyn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cls_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmpname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dispid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editorder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="exposure" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="langu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtd_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtddecltyp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtdtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="r3release" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourcecode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clsmtd_cls" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPClass" inverseName="cls_clsmtd" inverseEntity="M_ABAPClass" syncable="YES"/>
+        <relationship name="clsmtd_clsmtdex" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPClassMethodException" inverseName="clsmtdex_mtd" inverseEntity="M_ABAPClassMethodException" syncable="YES"/>
+        <relationship name="clsmtd_clsmtdparam" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPClassMethodParameter" inverseName="clsmtdparam_clsmtd" inverseEntity="M_ABAPClassMethodParameter" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPClassMethodException" representedClassName="M_ABAPClassMethodException" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmpname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editorder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="langu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtd_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtdtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sconame" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clsmtdex_mtd" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPClassMethod" inverseName="clsmtd_clsmtdex" inverseEntity="M_ABAPClassMethod" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPClassMethodParameter" representedClassName="M_ABAPClassMethodParameter" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clsname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmpname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cmptype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dispid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editorder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="langu" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtd_UUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mtdtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pardecltyp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paroptionl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parpastyp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parvalue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sconame" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableof" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clsmtdparam_clsmtd" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPClassMethod" inverseName="clsmtd_clsmtdparam" inverseEntity="M_ABAPClassMethod" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPFugr" representedClassName="M_ABAPFugr" syncable="YES">
+        <attribute name="appl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="areat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cdat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cnam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbapl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbna" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixpt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fugr_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ldbname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rmand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uccheck" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="udat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="varcl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vern" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fg_fgincl" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPFugrIncl" inverseName="fgincl_fg" inverseEntity="M_ABAPFugrIncl" syncable="YES"/>
+        <relationship name="fg_fm" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPFugrFM" inverseName="fm_fg" inverseEntity="M_ABAPFugrFM" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPFugrFM" representedClassName="M_ABAPFugrFM" syncable="YES">
+        <attribute name="fm_source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fm_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fugr_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stext" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fm_fg" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPFugr" inverseName="fg_fm" inverseEntity="M_ABAPFugr" syncable="YES"/>
+        <relationship name="fm_fmp" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPFugrFMParameter" inverseName="fmp_dm" inverseEntity="M_ABAPFugrFMParameter" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPFugrFMParameter" representedClassName="M_ABAPFugrFMParameter" syncable="YES">
+        <attribute name="direction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fm_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="optional" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parameter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reference" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typ" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fmp_dm" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPFugrFM" inverseName="fm_fmp" inverseEntity="M_ABAPFugrFM" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPFugrIncl" representedClassName="M_ABAPFugrIncl" syncable="YES">
+        <attribute name="appl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cdat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cnam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fugr_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="incl_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="include_source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rmand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uccheck" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="udat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="varcl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vern" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fgincl_fg" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPFugr" inverseName="fg_fgincl" inverseEntity="M_ABAPFugr" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPProgram" representedClassName="M_ABAPProgram" syncable="YES">
+        <attribute name="cdat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cnam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fixpt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prog_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rload" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rmand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rstat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sdate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uccheck" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="udat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unam" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="varcl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vern" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="p_pt" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="M_ABAPProgramText" inverseName="pt_p" inverseEntity="M_ABAPProgramText" syncable="YES"/>
+    </entity>
+    <entity name="M_ABAPProgramText" representedClassName="M_ABAPProgramText" syncable="YES">
+        <attribute name="entry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="length" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prog_uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pt_p" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="M_ABAPProgram" inverseName="p_pt" inverseEntity="M_ABAPProgram" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="M_ABAPClass" positionX="-693" positionY="-396" width="128" height="568"/>
+        <element name="M_ABAPClassAttribute" positionX="-884" positionY="297" width="128" height="450"/>
+        <element name="M_ABAPClassEvent" positionX="-236" positionY="-405" width="128" height="298"/>
+        <element name="M_ABAPClassEventParameter" positionX="-18" positionY="-412" width="128" height="313"/>
+        <element name="M_ABAPClassMethod" positionX="-288" positionY="161" width="128" height="403"/>
+        <element name="M_ABAPClassMethodException" positionX="-18" positionY="-64" width="128" height="253"/>
+        <element name="M_ABAPClassMethodParameter" positionX="225" positionY="-55" width="128" height="388"/>
+        <element name="M_ABAPFugr" positionX="-684" positionY="-270" width="128" height="433"/>
+        <element name="M_ABAPFugrFM" positionX="-666" positionY="-252" width="128" height="148"/>
+        <element name="M_ABAPFugrFMParameter" positionX="-657" positionY="-243" width="128" height="193"/>
+        <element name="M_ABAPFugrIncl" positionX="-675" positionY="-261" width="128" height="343"/>
+        <element name="M_ABAPProgram" positionX="-639" positionY="-225" width="128" height="343"/>
+        <element name="M_ABAPProgramText" positionX="-630" positionY="-216" width="128" height="133"/>
+    </elements>
+</model>
