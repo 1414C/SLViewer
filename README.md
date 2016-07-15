@@ -19,7 +19,7 @@ A notable exclusion is ABAP Repostitory content (DDIC).
 # Testing
 A sample Slinkee file is located at ./SLViewer/SLViewerTests/CLAS_ZCL_TEXT_EXPORT5.slnk.  It contains a single ABAP Class of reasonable completeness.
 
-#TODO:
+#ToDo
 Logical next-steps would be: 
 * add class-type leaf in the class object list 
 * add support for custom DDIC objects (tables, structures, data-elements, domains)
