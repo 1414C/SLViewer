@@ -56,7 +56,6 @@
 		B2CB47011ADC307900C77A84 /* WC_ABAPMethod_Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CB46FF1ADC307900C77A84 /* WC_ABAPMethod_Modal.m */; };
 		B2CB47021ADC307900C77A84 /* WC_ABAPMethod_Modal.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CB47001ADC307900C77A84 /* WC_ABAPMethod_Modal.xib */; };
 		B2CB476E1ADEE99C00C77A84 /* WC_ABAPEvent_Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CB476D1ADEE99C00C77A84 /* WC_ABAPEvent_Modal.m */; };
-		B2CB47701ADEEACE00C77A84 /* WC_ABAPEvent_Modal.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2CB476F1ADEEACE00C77A84 /* WC_ABAPEvent_Modal.xib */; };
 		B2CB47C21ADF265900C77A84 /* M_ABAPClassMethodException.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CB47C11ADF265900C77A84 /* M_ABAPClassMethodException.m */; };
 		B2CB47C51ADF265A00C77A84 /* M_ABAPClassEventParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CB47C41ADF265A00C77A84 /* M_ABAPClassEventParameter.m */; };
 		B2CB47C81ADF265A00C77A84 /* M_ABAPClassEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B2CB47C71ADF265A00C77A84 /* M_ABAPClassEvent.m */; };
@@ -283,8 +282,8 @@
 				B2279D8B1ACC51EB00ACEF48 /* ABAPClassXMLParser.m */,
 			);
 			name = LeftSide;
-			path = /Users/stevem/devOSX/1414C/SLViewer/SLViewer/..;
-			sourceTree = "<absolute>";
+			path = ..;
+			sourceTree = "<group>";
 		};
 		B216538B1AD727C4008FC848 /* ClassTabs */ = {
 			isa = PBXGroup;
@@ -611,7 +610,6 @@
 				B21653911AD73A01008FC848 /* VC_ABAPClassAttributes_Tab.xib in Resources */,
 				B2CB48251AE4A96A00C77A84 /* VC_ABAPFugrTOPINCL_Tab.xib in Resources */,
 				B2CB482F1AE5B88D00C77A84 /* WC_ABAPFugrIncludes_Modal.xib in Resources */,
-				B2CB47701ADEEACE00C77A84 /* WC_ABAPEvent_Modal.xib in Resources */,
 				B221B3F11AF810C300C90766 /* VC_ABAPFugrInclude_InPlaceDisplay.xib in Resources */,
 				B216538A1AD7274B008FC848 /* VC_ABAPClassMethod_Tab.xib in Resources */,
 				B221B3E71AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.xib in Resources */,
