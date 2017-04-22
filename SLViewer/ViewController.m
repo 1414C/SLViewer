@@ -396,7 +396,10 @@
                 [alert addButtonWithTitle:@"OK"];
                 [alert setMessageText:@"Alert"];
                 [alert setInformativeText:@"Problem opening file"];
-                [alert setAlertStyle:NSCriticalAlertStyle];
+#pragma mark - 10.12 udpate
+                //[alert setAlertStyle:NSCriticalAlertStyle];
+                [alert setAlertStyle:NSAlertStyleCritical];
+#pragma mark - 10.12 udpate end
                 [alert beginSheetModalForWindow:[[self view]window] completionHandler:^(NSModalResponse returnCode) {
                     if (returnCode == NSModalResponseOK)
                     {
@@ -462,7 +465,10 @@
                     [alert addButtonWithTitle:@"OK"];
                     [alert setMessageText:@"Alert"];
                     [alert setInformativeText:@"Unable to determine the file encoding]"];
-                    [alert setAlertStyle:NSCriticalAlertStyle];
+#pragma mark - 10.12 udpate
+                    // [alert setAlertStyle:NSCriticalAlertStyle];
+                    [alert setAlertStyle:NSAlertStyleCritical];
+#pragma mark - 10.12 udpate end
                     [alert beginSheetModalForWindow:[[self view]window] completionHandler:^(NSModalResponse returnCode) {
                         if (returnCode == NSModalResponseOK)
                         {
