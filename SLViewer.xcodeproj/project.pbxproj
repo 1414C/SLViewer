@@ -45,7 +45,6 @@
 		B221B4671D398F8400D3BA10 /* CLAS_ZCL_TEXT_EXPORT5.slnk in Resources */ = {isa = PBXBuildFile; fileRef = B221B4661D398F8400D3BA10 /* CLAS_ZCL_TEXT_EXPORT5.slnk */; };
 		B2279D6B1ACC514B00ACEF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6A1ACC514B00ACEF48 /* main.m */; };
 		B2279D711ACC514B00ACEF48 /* SLViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6F1ACC514B00ACEF48 /* SLViewer.xcdatamodeld */; };
-		B2279D731ACC514B00ACEF48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2279D721ACC514B00ACEF48 /* Images.xcassets */; };
 		B2279D761ACC514B00ACEF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2279D741ACC514B00ACEF48 /* Main.storyboard */; };
 		B2279D821ACC514B00ACEF48 /* SLViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D811ACC514B00ACEF48 /* SLViewerTests.m */; };
 		B2279DBC1ACC6D4500ACEF48 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279DBB1ACC6D4500ACEF48 /* DataManager.m */; };
@@ -585,7 +584,7 @@
 		B2279D5A1ACC514B00ACEF48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "steve macleod";
 				TargetAttributes = {
 					B2279D611ACC514B00ACEF48 = {
@@ -638,7 +637,6 @@
 				B21653801AD726CD008FC848 /* VC_ABAPClass_Tab.xib in Resources */,
 				B2CB482A1AE5AE5E00C77A84 /* VC_ABAPFugr_Includes.xib in Resources */,
 				B2CB480D1AE372D700C77A84 /* WC_ABAPFugrFM_Modal.xib in Resources */,
-				B2279D731ACC514B00ACEF48 /* Images.xcassets in Resources */,
 				B21653851AD7272B008FC848 /* VC_ABAPClassEvent_Tab.xib in Resources */,
 				B221B3EC1AF8081A00C90766 /* VC_ABAPFugrFM_InPlaceDisplay.xib in Resources */,
 				B2279D761ACC514B00ACEF48 /* Main.storyboard in Resources */,
@@ -768,8 +766,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -778,6 +778,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -810,8 +811,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -820,6 +823,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -841,6 +845,7 @@
 				GCC_PREFIX_HEADER = "SLViewer/SLViewer-Prefix.pch";
 				INFOPLIST_FILE = SLViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.clockwork.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -855,6 +860,7 @@
 				GCC_PREFIX_HEADER = "SLViewer/SLViewer-Prefix.pch";
 				INFOPLIST_FILE = SLViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.clockwork.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
