@@ -584,20 +584,20 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         
         // Classes selected in UI
-        if([_comboObjectSelection.objectValueOfSelectedItem isEqualToString:C_ClassInterfaces_value])
+        if([self->_comboObjectSelection.objectValueOfSelectedItem isEqualToString:C_ClassInterfaces_value])
         {
             [self loadABAPClassesWithSearchText:nil];
         }
         
         // Function Groups selected in UI
-        if([_comboObjectSelection.objectValueOfSelectedItem isEqualToString:C_FunctionGroups_value])
+        if([self->_comboObjectSelection.objectValueOfSelectedItem isEqualToString:C_FunctionGroups_value])
         {
             // contained to handle refresh / reload requests
             [self loadABAPFUGRWithSearchText:nil];
         }
         
         // SE38 programs selected in UI
-        if([_comboObjectSelection.objectValueOfSelectedItem isEqualToString:C_Programs_value])
+        if([self->_comboObjectSelection.objectValueOfSelectedItem isEqualToString:C_Programs_value])
         {
             // contained to handle refresh / reload requests
             [self loadABAPProgramsWithSearchText:nil];
