@@ -5,7 +5,7 @@ I wrote this for myself in some spare time I had in 2015.  We reduce our lab sys
 
 These days it probably makes more sense to use ABAPGit with Eclipse, but this program can still be handy if you have code in SAPLink files that you would like to reference.
 
-The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode Version 9.4.1 with a target OS X release of 10.11.  Check the other branches if you are running something older.
+The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode Version 10.1(10B61) with a target macOS release of 10.14.  Check the other branches if you are running something older, or just adjust the build settings, clean and rebuild.  The code should work back to XCode 8.x and OS X 10.10.
 
 * This program will read SAPLink archives in either Slinkee or Nugget format and create a SQLite DB containing the unarchived objects in human-readable format.  
 * You may import multiple SAPLink files.
