@@ -3,7 +3,7 @@ SAPLink Archive Viewer for OS X
 
 I wrote this for myself in some spare time I had in 2015.  We reduce our lab systems to rubble from time-to-time, and dealing with the reapplication of transports just for the sake of examining sample source code gets tedious.  I also didn't want to reapply SAPLink archives just to look at one or two ABAP classes.  The result is this program.
 
-These days it probably makes more sense to use ABAPGit, but this program can still be handy if you have code in SAPLink files that you would like to reference.
+These days it probably makes more sense to use ABAPGit with Eclipse, but this program can still be handy if you have code in SAPLink files that you would like to reference.
 
 The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode Version 9.4.1 with a target OS X release of 10.11.  Check the other branches if you are running something older.
 
@@ -31,6 +31,28 @@ Logical next-steps would be:
 * partition source-code and objects by source-system if known, this could be accomplished by perhaps choosing a DB to connect to, or by creating a new primary-key (SID?) in the extisting entities and adding support for the field in the import modal window / general UI.
 
 # Screenshots
-![Testing Instance Running](https://github.com/1414C/SLViewer/raw/master/images/ss1.png "Testing Instance Running")
+![Class Method Display](https://github.com/1414C/SLViewer/raw/master/images/ss1.png "Class Method Display")
+Class Method Display
 
-![Testing Instance Running](https://github.com/1414C/cwl/raw/master/images/Lambda6.jpeg "Testing Instance Running")
+<br>
+
+![Class Attribute Display](https://github.com/1414C/SLViewer/raw/master/images/ss2.png "Class Attribute Display")
+Class Attribute Display
+
+<br>
+
+![Class Properties Display](https://github.com/1414C/SLViewer/raw/master/images/ss3.png "Class Properties Display")
+Class Properties Display
+
+<br>
+
+![Function Module Display](https://github.com/1414C/SLViewer/raw/master/images/ss4.png "Function Module Display")
+Function Module Display
+
+<br>
+
+![Function Group Properties Display](https://github.com/1414C/SLViewer/raw/master/images/ss4.png "Function Group Properties Display")
+Function Group Properties Display
+
+
+
