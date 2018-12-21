@@ -31,6 +31,6 @@ Logical next-steps would be:
 * partition source-code and objects by source-system if known, this could be accomplished by perhaps choosing a DB to connect to, or by creating a new primary-key (SID?) in the extisting entities and adding support for the field in the import modal window / general UI.
 
 # Screenshots
-![Testing Instance Running](https://github.com/1414C/SLViewer/raw/images/ss1.png "Testing Instance Running")
+![Testing Instance Running](https://github.com/1414C/SLViewer/raw/master/images/ss1.png "Testing Instance Running")
 
-
+![Testing Instance Running](https://github.com/1414C/cwl/raw/master/images/Lambda6.jpeg "Testing Instance Running")
