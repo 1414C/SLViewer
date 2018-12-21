@@ -51,7 +51,7 @@ Function Module Display
 
 <br>
 
-![Function Group Properties Display](https://github.com/1414C/SLViewer/raw/master/images/ss4.png "Function Group Properties Display")
+![Function Group Properties Display](https://github.com/1414C/SLViewer/raw/master/images/ss5.png "Function Group Properties Display")
 Function Group Properties Display
 
 
