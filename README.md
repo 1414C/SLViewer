@@ -5,7 +5,7 @@ I wrote this for myself in some spare time I had in 2015.  We reduce our lab sys
 
 These days it probably makes more sense to use ABAPGit with Eclipse, but this program can still be handy if you have code in SAPLink files that you would like to reference.
 
-The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode Version 10.1(10B61) with a target macOS release of 10.14.  Check the other branches if you are running something older, or just adjust the build settings, clean and rebuild.  The code should work back to XCode 8.x and OS X 10.10.
+The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode Version 10.1(10B61) with a target macOS release of 10.12.  Check the other branches if you are running something older, or just adjust the build settings, clean and rebuild.  The code should work back to XCode 8.x and OS X 10.10.
 
 * This program will read SAPLink archives in either Slinkee or Nugget format and create a SQLite DB containing the unarchived objects in human-readable format.  
 * You may import multiple SAPLink files.
@@ -22,7 +22,8 @@ A notable exclusion is ABAP Repostitory content (DDIC).
 A sample Slinkee file is located at ./SLViewer/SLViewerTests/CLAS_ZCL_TEXT_EXPORT5.slnk.  It contains a single ABAP Class of reasonable completeness.
 
 #ToDo
-Logical next-steps would be: 
+Logical next-steps would be:
+* add support for dark mode / update the build target for macOS 10.14
 * add class-type leaf in the class object list 
 * add support for custom DDIC objects (tables, structures, data-elements, domains)
 * create a parser/lexer to permit indexing of the known objects
