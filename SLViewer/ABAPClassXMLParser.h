@@ -58,7 +58,7 @@
     // calling class should set itself
     // as the delegate for its instance of
     // ABAPClassXMLParser.
-    id <ABAPXMLClassParserDelegate> delegate;
+    // id <ABAPXMLClassParserDelegate> delegate;
     
     
     NSDictionary *dictElements;

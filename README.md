@@ -1,11 +1,11 @@
 # SLViewer
 SAPLink Archive Viewer for OS X
 
-I wrote this for myself in some spare time I had in 2015.  We reduce our lab systems to rubble from time-to-time, and dealing with the reapplication of transports just for the sake of examining sample source code gets tedious.  I also didn't want to reapply SAPLink archives just to look at one or two ABAP classes.  The result is this program.
+I wrote this for myself in some spare time I had in 2015.  Dealing with the reapplication of transports just for the sake of examining sample source code gets tedious.  I also didn't want to reapply SAPLink archives just to look at one or two ABAP classes.  The result is this program.
 
 These days it probably makes more sense to use ABAPGit with Eclipse, but this program can still be handy if you have code in SAPLink files that you would like to reference.
 
-The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode Version 10.1(10B61) with a target macOS release of 10.12.  Check the other branches if you are running something older, or just adjust the build settings, clean and rebuild.  The code should work back to XCode 8.x and OS X 10.10.
+The project is built in Objective-C, as Swift was kind of new when I was writing this.  Presently the project is configured to build on XCode Version 10.1(10B61) with a target macOS release of 10.12.  Check the other branches if you are running something older, or just adjust the build settings, clean and rebuild.
 
 * This program will read SAPLink archives in either Slinkee or Nugget format and create a SQLite DB containing the unarchived objects in human-readable format.  
 * You may import multiple SAPLink files.

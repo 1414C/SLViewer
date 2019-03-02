@@ -374,20 +374,13 @@
             NSError *error = nil;
             
             
-            // Load the file and check the result
-#pragma mark - 10.11 update
-            // smacleod - 2016-07-15 - it would be nicer to use [url absoluteString] rather than implcit cast of url
-            // but there is a bug related to NSPOSIXErrorDomain - code 2 with this call.  Seems to be related to
-            // changes that occured in the update to XCode 7.x.  Although the call would still work, it does
-            // throw an error resulting in an alert.  this is confusing as the file actually continues to
-            // import.  For now use the raw url and accept the linter warning....
-#pragma mark - 10.11 upate end
-                fileData = [NSData dataWithContentsOfFile: url                       // [url absoluteString]
-                                                  options:NSDataReadingUncached
-                                                    error:&error];
+            // Load the file (url) and check the result
+#pragma mark - 10.14 update to use dataWithContentsOfURL vs old dataWithContentsOfFile
+            fileData = [NSData dataWithContentsOfURL: url
+                                             options:NSDataReadingUncached
+                                               error:&error];
+#pragma mark - 10.14 update end
           
-            
-            
             if(error)
             {
                 // cleanup and popup

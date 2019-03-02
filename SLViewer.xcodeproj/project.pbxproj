@@ -33,7 +33,6 @@
 		B21C6D381D3A85C200F77205 /* ABAPTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B21C6D2B1D3A85C200F77205 /* ABAPTreeNode.m */; };
 		B21C6D391D3A85C200F77205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21C6D2D1D3A85C200F77205 /* Main.storyboard */; };
 		B21C6D3A1D3A85C200F77205 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21C6D2F1D3A85C200F77205 /* Images.xcassets */; };
-		B21C6D3B1D3A85C200F77205 /* SLViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B21C6D301D3A85C200F77205 /* SLViewer.xcdatamodeld */; };
 		B21C6D3C1D3A85C200F77205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21C6D351D3A85C200F77205 /* ViewController.m */; };
 		B221B3E61AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = B221B3E41AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.m */; };
 		B221B3E71AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = B221B3E51AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.xib */; };
@@ -50,7 +49,6 @@
 		B22433AA21CC891E005BDEC1 /* ss3.png in Resources */ = {isa = PBXBuildFile; fileRef = B22433A521CC891E005BDEC1 /* ss3.png */; };
 		B2279D6B1ACC514B00ACEF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6A1ACC514B00ACEF48 /* main.m */; };
 		B2279D711ACC514B00ACEF48 /* SLViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2279D6F1ACC514B00ACEF48 /* SLViewer.xcdatamodeld */; };
-		B2279D761ACC514B00ACEF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2279D741ACC514B00ACEF48 /* Main.storyboard */; };
 		B2279D821ACC514B00ACEF48 /* SLViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279D811ACC514B00ACEF48 /* SLViewerTests.m */; };
 		B2279DBC1ACC6D4500ACEF48 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279DBB1ACC6D4500ACEF48 /* DataManager.m */; };
 		B2279DBE1ACC6E0800ACEF48 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2279DBD1ACC6E0800ACEF48 /* CoreData.framework */; };
@@ -148,9 +146,6 @@
 		B21C6D2B1D3A85C200F77205 /* ABAPTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAPTreeNode.m; sourceTree = "<group>"; };
 		B21C6D2E1D3A85C200F77205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		B21C6D2F1D3A85C200F77205 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B21C6D311D3A85C200F77205 /* SLViewer 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SLViewer 2.xcdatamodel"; sourceTree = "<group>"; };
-		B21C6D321D3A85C200F77205 /* SLViewer 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SLViewer 3.xcdatamodel"; sourceTree = "<group>"; };
-		B21C6D331D3A85C200F77205 /* SLViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SLViewer.xcdatamodel; sourceTree = "<group>"; };
 		B21C6D341D3A85C200F77205 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B21C6D351D3A85C200F77205 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B221B3E31AF7FCA400C90766 /* VC_ABAPClassMethod_InPlaceDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_ABAPClassMethod_InPlaceDisplay.h; sourceTree = "<group>"; };
@@ -176,7 +171,6 @@
 		B2279D6A1ACC514B00ACEF48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2279D701ACC514B00ACEF48 /* SLViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SLViewer.xcdatamodel; sourceTree = "<group>"; };
 		B2279D721ACC514B00ACEF48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B2279D751ACC514B00ACEF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2279D7B1ACC514B00ACEF48 /* SLViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2279D801ACC514B00ACEF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2279D811ACC514B00ACEF48 /* SLViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLViewerTests.m; sourceTree = "<group>"; };
@@ -405,7 +399,6 @@
 				B21C6D2B1D3A85C200F77205 /* ABAPTreeNode.m */,
 				B21C6D2C1D3A85C200F77205 /* Base.lproj */,
 				B21C6D2F1D3A85C200F77205 /* Images.xcassets */,
-				B21C6D301D3A85C200F77205 /* SLViewer.xcdatamodeld */,
 				B21C6D341D3A85C200F77205 /* ViewController.h */,
 				B21C6D351D3A85C200F77205 /* ViewController.m */,
 			);
@@ -467,7 +460,6 @@
 				B2279D671ACC514B00ACEF48 /* AppDelegate.h */,
 				B209E7381AD321960071B367 /* AppDelegate.m */,
 				B2279D721ACC514B00ACEF48 /* Images.xcassets */,
-				B2279D741ACC514B00ACEF48 /* Main.storyboard */,
 				B2279D6F1ACC514B00ACEF48 /* SLViewer.xcdatamodeld */,
 				B2279D651ACC514B00ACEF48 /* Supporting Files */,
 			);
@@ -667,7 +659,6 @@
 				B21653851AD7272B008FC848 /* VC_ABAPClassEvent_Tab.xib in Resources */,
 				B22433A921CC891E005BDEC1 /* ss5.png in Resources */,
 				B221B3EC1AF8081A00C90766 /* VC_ABAPFugrFM_InPlaceDisplay.xib in Resources */,
-				B2279D761ACC514B00ACEF48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,7 +703,6 @@
 				B216536A1AD6E625008FC848 /* tabVC.m in Sources */,
 				B219787E1AD4872F00A8542F /* ABAPMethodTypeCategoryTransformer.m in Sources */,
 				B219787D1AD4872F00A8542F /* ABAPParameterTypingTransformer.m in Sources */,
-				B21C6D3B1D3A85C200F77205 /* SLViewer.xcdatamodeld in Sources */,
 				B2CB480C1AE372D700C77A84 /* WC_ABAPFugrFM_Modal.m in Sources */,
 				B21C6D381D3A85C200F77205 /* ABAPTreeNode.m in Sources */,
 				B2CB48021AE06DE700C77A84 /* VC_ABAPClassType_Tab.m in Sources */,
@@ -766,14 +756,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B21C6D2E1D3A85C200F77205 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B2279D741ACC514B00ACEF48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2279D751ACC514B00ACEF48 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -981,18 +963,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B21C6D301D3A85C200F77205 /* SLViewer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B21C6D311D3A85C200F77205 /* SLViewer 2.xcdatamodel */,
-				B21C6D321D3A85C200F77205 /* SLViewer 3.xcdatamodel */,
-				B21C6D331D3A85C200F77205 /* SLViewer.xcdatamodel */,
-			);
-			currentVersion = B21C6D311D3A85C200F77205 /* SLViewer 2.xcdatamodel */;
-			path = SLViewer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		B2279D6F1ACC514B00ACEF48 /* SLViewer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
