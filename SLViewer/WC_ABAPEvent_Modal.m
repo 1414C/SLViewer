@@ -46,10 +46,13 @@
     // get the parameters ready for the NSTableView and NSArrayController binding
     NSArray *arraySD = [[NSArray alloc]initWithObjects:[NSSortDescriptor sortDescriptorWithKey:@"editorder" ascending:YES], nil];
     _arrayEventParameters = [[NSArray alloc]initWithArray:[[_abapClassEvent  clsevt_clsevtparam] sortedArrayUsingDescriptors:arraySD]];
+    
+#ifdef DEBUG
     for(M_ABAPClassEventParameter *a in _arrayEventParameters)
     {
-        DLog(@"%@",a.sconame);
+        NSLog(@"%@",a.sconame);
     }
+#endif
     
     return self;
 }

@@ -71,11 +71,14 @@
     // the notification.userInfo is forwarded via the
     // embedSegue to this view controller.
     [self setTabStyle:NSTabViewControllerTabStyleUnspecified];
+    
+#ifdef DEBUG
     for(NSTabViewItem *ti in self.tabViewItems)
     {
-        DLog(@"%@",ti);
-        DLog(@"%@",ti.viewController.view.identifier);
+        NSLog(@"%@",ti);
+        NSLog(@"%@",ti.viewController.view.identifier);
     }
+#endif
 }
 
 

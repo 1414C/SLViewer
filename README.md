@@ -14,7 +14,7 @@ The project is built in Objective-C, as Swift was kind of new when I was writing
 
 The only objects supported are ABAP Classes, ABAP Function Groups and ABAP SE38-type programs.  If the source file contains other
 object-types, the unsupported objects will be skipped over.  It would be relatively simple to add support for additional object-types,
-however most meaningful aspects of ABAP-stack development can be captured with those presently supported.
+however most meaningful aspects of ABAP-stack development can be captured with those presently supported.  * this is no longer true, as ABAP CDS views are both powerful and pervasive...
 
 A notable exclusion is ABAP Repostitory content (DDIC).  
 

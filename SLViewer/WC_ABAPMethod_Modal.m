@@ -47,10 +47,13 @@
     // get the parameters ready for the NSTableView and NSArrayController binding
     NSArray *arraySD = [[NSArray alloc]initWithObjects:[NSSortDescriptor sortDescriptorWithKey:@"editorder" ascending:YES], nil];
     _arrayMethodParameters = [[NSArray alloc]initWithArray:[[_abapClassMethod clsmtd_clsmtdparam] sortedArrayUsingDescriptors:arraySD]];
+    
+#ifdef DEBUG
     for(M_ABAPClassMethodParameter *a in _arrayMethodParameters)
     {
-        DLog(@"%@",a.sconame);
+        NSLog(@"%@",a.sconame);
     }
+#endif
     
     return self;
 }
@@ -64,10 +67,13 @@
     // get the parameters ready for the NSTableView and NSArrayController binding
     NSArray *arraySD = [[NSArray alloc]initWithObjects:[NSSortDescriptor sortDescriptorWithKey:@"editorder" ascending:YES], nil];
     _arrayMethodParameters = [[NSArray alloc]initWithArray:[[_abapClassMethod clsmtd_clsmtdparam] sortedArrayUsingDescriptors:arraySD]];
+    
+#ifdef DEBUG
     for(M_ABAPClassMethodParameter *a in _arrayMethodParameters)
     {
-        DLog(@"%@",a.sconame);
+        NSLog(@"%@",a.sconame);
     }
+#endif
     
     return self;
 }
@@ -114,7 +120,5 @@
         [self.window setTitle:[NSString stringWithFormat:@"Method  %@->%@",[_abapClassMethod clsname],[_abapClassMethod cmpname]]];
     }
 }
-
-
 
 @end
