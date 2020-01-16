@@ -29,7 +29,7 @@ Logical next-steps would be:
 * create a parser/lexer to permit indexing of the known objects
 * use the parser/lexer to color-code the source code
 * create a where-used function for known objects
-* partition source-code and objects by source-system if known, this could be accomplished by perhaps choosing a DB to connect to, or by creating a new primary-key (SID?) in the extisting entities and adding support for the field in the import modal window / general UI.
+* partition source-code and objects by source-system if known, this could be accomplished by perhaps choosing a DB to connect to, or by creating a new primary-key (SID?) in the existing entities and adding support for the field in the import modal window / general UI.
 
 # Screenshots
 ![Class Method Display](https://github.com/1414C/SLViewer/raw/master/images/ss1.png "Class Method Display")
