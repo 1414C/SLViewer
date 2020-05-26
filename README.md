@@ -11,7 +11,7 @@ The project is built in Objective-C, as Swift was kind of new when I was writing
 * You may import multiple SAPLink files.
 * Duplicate objects will be overwritten without warning.
 * The imported objects are contained in one 'codebase' - see the overwrite warning.
-* Files must be encoded as UTF-8.  If the upload of your SAPLink artifacts fail, the cause is probably the file encoding.
+* Files must be encoded as UTF-8.  If the upload of your SAPLink artifacts fails, the cause is probably the file encoding.
 
 The only objects supported are ABAP Classes, ABAP Function Groups and ABAP SE38-type programs.  If the source file contains other
 object-types, the unsupported objects will be skipped over.  It would be relatively simple to add support for additional object-types,
