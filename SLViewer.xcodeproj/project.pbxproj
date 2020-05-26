@@ -187,8 +187,8 @@
 		B248EF9E1AF2AFE200229A36 /* M_ABAPClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_ABAPClass.m; sourceTree = "<group>"; };
 		B248EFA01AF2E10300229A36 /* M_ABAPClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_ABAPClassMethod.h; sourceTree = "<group>"; };
 		B248EFA11AF2E10300229A36 /* M_ABAPClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_ABAPClassMethod.m; sourceTree = "<group>"; };
-		B248EFD21AF31B6800229A36 /* ABAPCodeFormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABAPCodeFormatUtil.h; path = SLViewer/ABAPCodeFormatUtil.h; sourceTree = "<group>"; };
-		B248EFD31AF31B6800229A36 /* ABAPCodeFormatUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABAPCodeFormatUtil.m; path = SLViewer/ABAPCodeFormatUtil.m; sourceTree = "<group>"; };
+		B248EFD21AF31B6800229A36 /* ABAPCodeFormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABAPCodeFormatUtil.h; sourceTree = "<group>"; };
+		B248EFD31AF31B6800229A36 /* ABAPCodeFormatUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAPCodeFormatUtil.m; sourceTree = "<group>"; };
 		B269CD201D396E59008F9FC1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B2CB46FE1ADC307900C77A84 /* WC_ABAPMethod_Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC_ABAPMethod_Modal.h; sourceTree = "<group>"; };
 		B2CB46FF1ADC307900C77A84 /* WC_ABAPMethod_Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC_ABAPMethod_Modal.m; sourceTree = "<group>"; };
@@ -267,6 +267,8 @@
 		B21653661AD6E3C7008FC848 /* RightSide */ = {
 			isa = PBXGroup;
 			children = (
+				B248EFD21AF31B6800229A36 /* ABAPCodeFormatUtil.h */,
+				B248EFD31AF31B6800229A36 /* ABAPCodeFormatUtil.m */,
 				B219788A1AD624AE00A8542F /* ABAPDetailController.h */,
 				B219788B1AD624AE00A8542F /* ABAPDetailController.m */,
 				B21653681AD6E625008FC848 /* tabVC.h */,
@@ -431,8 +433,6 @@
 				B22433A021CC88FD005BDEC1 /* images */,
 				B221B4641D3989F300D3BA10 /* LICENSE.md */,
 				B269CD201D396E59008F9FC1 /* README.md */,
-				B248EFD21AF31B6800229A36 /* ABAPCodeFormatUtil.h */,
-				B248EFD31AF31B6800229A36 /* ABAPCodeFormatUtil.m */,
 				B2279DC51ACDCBEB00ACEF48 /* Frameworks */,
 				B2279D641ACC514B00ACEF48 /* SLViewer */,
 				B2279D7E1ACC514B00ACEF48 /* SLViewerTests */,
@@ -616,6 +616,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -873,6 +874,7 @@
 				INFOPLIST_FILE = SLViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.clockwork.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -888,6 +890,7 @@
 				INFOPLIST_FILE = SLViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.clockwork.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
